@@ -1,0 +1,36 @@
+RewriteEngine on
+RewriteRule ^about?$ about.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^admin_logout?$ admin/admin_logout.php
+RewriteRule ^adminlogin?$ admin/adminlogin.php
+RewriteRule ^register?$ admin/admin_register.php
+RewriteRule ^published_ads/([0-9]+) admin/published_ads.php?refresh_ads=$1
+RewriteRule ^unpublished_ads/([0-9]+) admin/unpublished_ads.php?publish=$1
+
+
+
+RewriteRule ^index?$ index.php
+
+#RewriteRule ^index/([0-9]+) index.php?pg=$1
+
+
+RewriteRule ^ads?$ usersboard/ads.php
+RewriteRule ^home?$ admin/home.php
+RewriteRule ^published_ads?$ admin/published_ads.php
+RewriteRule ^unpublished_ads?$ admin/unpublished_ads.php
+
+
+
+RewriteRule ^singleproduct/([0-9]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) singleproduct.php?recognition=$1&recognise=$2&user=$3
+RewriteRule ^dashboard/([0-9]+) usersboard/dashboard.php?information=$1
+RewriteRule ^getregions?$ usersboard/getregions.php
+RewriteRule ^getmodel?$ usersboard/getmodel.php
+
+
+RewriteRule ^editusers/([0-9]+) usersboard/editusers.php?information=$1
+RewriteRule ^showpropertytouser/([0-9]+) usersboard/showpropertytouser.php?user=$1
+
+RewriteRule ^dashboard/delete_image/([0-9]+)/([0-9a-zA-Z]+) usersboard/dashboard.php?delete_image=1&information=$2
+RewriteRule ^dashboard/profilephoto/([0-9]+) usersboard/dashboard.php?profilephoto=1
+
+

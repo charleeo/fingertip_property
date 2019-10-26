@@ -1,0 +1,23 @@
+.box {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	background: #333;
+	align-items: center;
+	padding: 2rem;
+	margin-bottom: -0.5rem;
+	box-shadow: var(--shadow);
+	color: #fff;
+}
+.box a {
+	color: inherit;
+}
+
+footer {
+	margin-top: -0.5rem;
+	background: var(--primary);
+	color: var(--light);
+	text-align: center;
+	padding: 1rem;
+	opacity: 0.8;
+}
