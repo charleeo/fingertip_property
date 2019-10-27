@@ -1,7 +1,10 @@
 PHPMailer/
 assets/
 js/template/
-js/bootstrap
+js/bootstrap.js
 mycss/webfonts/
-mycss/css-fontawsome
-mycss/css/bootstrap
+mycss/css-fontawsome.css
+mycss/css/bootstrap.css
+
+composer.json
+composer.lock
