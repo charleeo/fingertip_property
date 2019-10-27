@@ -1,0 +1,9 @@
+PHPMailer/
+assets/
+js/template/
+js/bootstrap
+mycss/webfonts/
+mycss/css-fontawsome
+mycss/css/bootstrap
+gitignore.txt
+newmeagain/
